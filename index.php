@@ -1,4 +1,3 @@
-
 <?php
-print "HELLO GUYS!!!! THIS IS ANKUSH SAINI"
+printfhskn "HELLO GUYS!!!! THIS IS ANKUSH SAINI"
 ?>
