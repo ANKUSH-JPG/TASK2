@@ -38,3 +38,15 @@
 2. On running the jenkins we got :
 
 ![Screenshot (447)](https://user-images.githubusercontent.com/51692515/84908054-9a346580-b0d1-11ea-8e02-7afc0574fa9b.png)
+
+# create the job chain in jenkins using the build pipeline:
+  # job 1 :( to pull the code from git hub)
+  
+  1. We created a php file which had the code to be deployed and a mail.py file which will be used later in case the code fails to execute on the testing servers.
+  
+  ![Screenshot (448)](https://user-images.githubusercontent.com/51692515/84908756-7e7d8f00-b0d2-11ea-96f7-283aed12fec7.png)
+  
+we also created a post-commit file that would automatically push the code to the repo present in github. On github we changed the webhook settings and created a hook there that would automatically trigger the jenkins job .
+
+
+
