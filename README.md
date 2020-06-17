@@ -27,3 +27,14 @@
  ![Screenshot (444)](https://user-images.githubusercontent.com/51692515/84906818-0dd57300-b0d0-11ea-961f-6c76ef0857a0.png)
 
 
+# next is to launch the image :
+ 1. when we launched the image , jenkins service automatically started in the container and the token was given to us in order to login to jenkins.
+ 
+![Screenshot (445)](https://user-images.githubusercontent.com/51692515/84907856-57728d80-b0d1-11ea-9eb1-7196084b0c78.png)
+ 
+ 
+![Screenshot (446)](https://user-images.githubusercontent.com/51692515/84907866-5b061480-b0d1-11ea-8df7-1b654e650112.png)
+
+2. On running the jenkins we got :
+
+![Screenshot (447)](https://user-images.githubusercontent.com/51692515/84908054-9a346580-b0d1-11ea-8e02-7afc0574fa9b.png)
