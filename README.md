@@ -40,6 +40,13 @@
 ![Screenshot (447)](https://user-images.githubusercontent.com/51692515/84908054-9a346580-b0d1-11ea-8e02-7afc0574fa9b.png)
 
 # create the job chain in jenkins using the build pipeline:
+
+THE BUILD PIPELINE CREATED LOOKS LIKE :
+
+![Screenshot (450)](https://user-images.githubusercontent.com/51692515/84910240-4414f180-b0d4-11ea-8181-1a6ca6e58b37.png)
+
+
+# NOW LET US EXPLAIN EACH AND EVERY JOB ONE BY ONE
   # job 1 :( to pull the code from git hub)
   
   1. We created a php file which had the code to be deployed and a mail.py file which will be used later in case the code fails to execute on the testing servers.
@@ -48,5 +55,6 @@
   
 we also created a post-commit file that would automatically push the code to the repo present in github. On github we changed the webhook settings and created a hook there that would automatically trigger the jenkins job .
 
+![Screenshot (449)](https://user-images.githubusercontent.com/51692515/84909991-f7311b00-b0d3-11ea-9ae2-588c2b40f36d.png)
 
 
