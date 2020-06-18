@@ -114,5 +114,42 @@ This will automatically download the files for us that had been pushed to repo b
 
 # IN CASE THE CODE IS RIGHT:
 
+1. job1 will run.
+2. job2 will run.
+3. job3 will run and fail because the code is working fine.
+4. job5 will run and monitor the container.
+
+# ------------------------------------------------------------------------------------------------------------------------------
+
+
+
+![Screenshot (461)](https://user-images.githubusercontent.com/51692515/84985356-37d37780-b15a-11ea-9e85-e001b14d16ef.png)
+
+![Screenshot (462)](https://user-images.githubusercontent.com/51692515/84985357-3904a480-b15a-11ea-8a51-fcecee46233e.png)
+
+![Screenshot (463)](https://user-images.githubusercontent.com/51692515/84985358-399d3b00-b15a-11ea-9ec8-19e2d5233c36.png)
+
+![Screenshot (464)](https://user-images.githubusercontent.com/51692515/84985360-3a35d180-b15a-11ea-93c3-a0c4bfdbfd92.png)
+
+![Screenshot (465)](https://user-images.githubusercontent.com/51692515/84985363-3b66fe80-b15a-11ea-8a48-3e743231f12b.png)
+
+![Screenshot (466)](https://user-images.githubusercontent.com/51692515/84985365-3bff9500-b15a-11ea-98e0-9ea6e0ed10bf.png)
+
+![Screenshot (467)](https://user-images.githubusercontent.com/51692515/84985342-330ec380-b15a-11ea-8f64-9e2ef10b9184.png) 
+
+![Screenshot (468)](https://user-images.githubusercontent.com/51692515/84985345-34d88700-b15a-11ea-95f0-017da114a37c.png)
+
+![Screenshot (469)](https://user-images.githubusercontent.com/51692515/84985349-3609b400-b15a-11ea-9194-2ab5b17ab987.png)
+
+![Screenshot (470)](https://user-images.githubusercontent.com/51692515/84985353-373ae100-b15a-11ea-8072-9e962866acf0.png)
+
+
+# ***********************************************************************************************************************
+
+
+
+
+
+
 
 
