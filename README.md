@@ -79,4 +79,33 @@ This will automatically download the files for us that had been pushed to repo b
 ![Screenshot (454)](https://user-images.githubusercontent.com/51692515/84980657-44eb6900-b150-11ea-9056-b75f8c62e041.png)
 
 
+ # job 3:(testing our app on the testing servers)
  
+ 1. This job was the downstream project for job2 i.e once the file extension is identifed the file will be deployed on testing servers for testing purpose. 
+ 
+ 2. We identified the status code of the file on server , if it was 200 the file was working fine on the testing servers and is ready to be deployed on deployment servers. The file was then copied to the folder that was mounted on the deployment server and a "exit 1" command was given to stop the job. The downstream project job5 was activated , that will continoustly monitor the deployment servers and  immediately starts a new server for us if the first one fails. 
+ if the status code of the file on server wasnt equal to 200 ,it automatically activates the downstream project job4 (which will send the mail to the developer with the ERROR message).
+ 
+ ![Screenshot (455)](https://user-images.githubusercontent.com/51692515/84981579-79602480-b152-11ea-9545-d387268b88ef.png)
+ 
+![Screenshot (456)](https://user-images.githubusercontent.com/51692515/84981584-7a915180-b152-11ea-9118-b37c38bade1d.png)
+
+# job 4:(mailing to developer)
+
+1. we created code to mail developer , found the status code of the file in testing server and copied it in a file named "error.txt"
+. In our mail.py file we opened the error.txt file and mailed it to developer.
+
+![Screenshot (457)](https://user-images.githubusercontent.com/51692515/84982086-8cbfbf80-b153-11ea-867b-77989879d495.png)
+
+![Screenshot (458)](https://user-images.githubusercontent.com/51692515/84982106-977a5480-b153-11ea-8f48-7f98b320b6d6.png)
+
+# job 5:(monitoring the container)
+
+1. For this job we have a upstream project job3 , which we build stable or unstable will trigger this job .
+
+2. The purpose of this job is to continously monitor the deployment container . We created an infinite while loop , inside loop if the current state of the container will be "true" then it is working fine and if the state is "false " that means the container stopped running and a new deployment container will be created behind the scene automatically.
+
+![Screenshot (459)](https://user-images.githubusercontent.com/51692515/84984003-96e3bd00-b157-11ea-96c5-c5985cf7cdca.png)
+
+![Screenshot (460)](https://user-images.githubusercontent.com/51692515/84984008-99461700-b157-11ea-954f-c1a8468e11c0.png)
+
