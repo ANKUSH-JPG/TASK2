@@ -119,7 +119,7 @@ This will automatically download the files for us that had been pushed to repo b
 3. job3 will run and fail because the code is working fine.
 4. job5 will run and monitor the container.
 
-# -----------------------------------------------------------------------------------------------------------------------------------
+# ********************************************************************************************************************************
 
 
 
@@ -147,8 +147,15 @@ This will automatically download the files for us that had been pushed to repo b
 # ********************************************************************************************************************************
 
 
+# IN CASE THE CODE PUSHED IS WRONG:
 
+1. job1 will run.
+2. job2 will run.
+3. job3 will run .
+4. job4 will run and sent mail.
+4. job5 will run and monitor the container.
 
+# ********************************************************************************************************************************
 
 
 
