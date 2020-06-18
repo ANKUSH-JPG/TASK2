@@ -157,6 +157,29 @@ This will automatically download the files for us that had been pushed to repo b
 
 # ********************************************************************************************************************************
 
+![Screenshot (471)](https://user-images.githubusercontent.com/51692515/84986690-98fc4a80-b15c-11ea-98ed-78e214654cd0.png)
 
+![Screenshot (472)](https://user-images.githubusercontent.com/51692515/84986691-9994e100-b15c-11ea-846e-41db99c7766b.png)
+
+![Screenshot (478)](https://user-images.githubusercontent.com/51692515/84986700-9c8fd180-b15c-11ea-946b-54671afda66c.png)
+
+![Screenshot (477)](https://user-images.githubusercontent.com/51692515/84986697-9b5ea480-b15c-11ea-93cc-4447b481f01d.png)
+
+![Screenshot (473)](https://user-images.githubusercontent.com/51692515/84986694-9ac60e00-b15c-11ea-95b0-b0b2e7660d24.png)
+
+![Screenshot (481)](https://user-images.githubusercontent.com/51692515/84986703-9e599500-b15c-11ea-8caa-a68feeab0704.png)
+
+![Screenshot (480)](https://user-images.githubusercontent.com/51692515/84986701-9d286800-b15c-11ea-9de3-8cd278928167.png)
+
+![Screenshot (482)](https://user-images.githubusercontent.com/51692515/84986705-9ef22b80-b15c-11ea-8324-c8158f5d6323.png)
+
+![Screenshot (483)](https://user-images.githubusercontent.com/51692515/84986674-913ca600-b15c-11ea-8f72-a361d24a4883.png)
+
+![Screenshot (484)](https://user-images.githubusercontent.com/51692515/84986678-926dd300-b15c-11ea-84cb-2f111fb0b1ac.png)
+
+![Screenshot (485)](https://user-images.githubusercontent.com/51692515/84986679-93066980-b15c-11ea-939b-7e45b1f0b6e1.png)
+
+
+# ********************************************************************************************************************************
 
 
