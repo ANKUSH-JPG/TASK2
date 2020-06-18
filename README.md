@@ -111,6 +111,8 @@ This will automatically download the files for us that had been pushed to repo b
 
 
 # NOW LET'S HAVE A LOOK AT THE ACTUAL WORKING:
-~ IN CASE THE CODE IS RIGHT:
+
+# IN CASE THE CODE IS RIGHT:
+
 
 
