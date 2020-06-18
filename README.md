@@ -58,3 +58,25 @@ we also created a post-commit file that would automatically push the code to the
 ![Screenshot (449)](https://user-images.githubusercontent.com/51692515/84909991-f7311b00-b0d3-11ea-9ae2-588c2b40f36d.png)
 
 
+NOW LETS HAVE A LOOK AT THE JOB:
+The job will use github webhooks to trigger itself , we also created a downstream project of job1 which will be executed once job1 executes successfully.
+
+![Screenshot (451)](https://user-images.githubusercontent.com/51692515/84980026-98f54e00-b14e-11ea-90c4-56c29ad06e27.png)
+
+
+![Screenshot (452)](https://user-images.githubusercontent.com/51692515/84980030-9bf03e80-b14e-11ea-897c-fe799e894dbf.png)
+
+This will automatically download the files for us that had been pushed to repo by the developer.
+
+ # job 2 :(to look and identify the code)
+ 
+ 1. Here we actually identified the extension of the code and created a respective image container for the testing and deployment purpose. This job was the downstream project for job1 i.e it will automatically be triggered once job1 execute successfully.
+ 
+ 2. In the execute shell we wrote the acctual code to be implemented. we changed the directory to " /var/lib/jenkins/workspace/job1_github" which was the working directory for job1 . We checked the status code of " ls -a | grep .php " command , if it was 0 that means the file matched and the respective php testing and the deployment server was started. In case the code was 1 , the file was not found.
+ 
+ ![Screenshot (453)](https://user-images.githubusercontent.com/51692515/84980651-42890f00-b150-11ea-8bd1-f4714fa5ddb2.png)
+ 
+![Screenshot (454)](https://user-images.githubusercontent.com/51692515/84980657-44eb6900-b150-11ea-9056-b75f8c62e041.png)
+
+
+ 
